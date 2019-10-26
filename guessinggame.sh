@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# File Name: guessinggame
+# File Name: guessinggame.sh
 
-#function to process the guess number inputed from the user
-guess_number() {
+num_of_files=$(ls -l |grep ^- |wc -l)
+
+while true
+do
   read -ep "guess the number of files in the current directory: " number
 
   if [[ "$number" -lt $num_of_files ]]
@@ -23,13 +25,4 @@ guess_number() {
     echo " you got it right. nice job!"
     exit 0
   fi
-  
-}
-
-#main body of scripts
-num_of_files=$(ls -l |grep ^- |wc -l)
-
-while true
-do
-  guess_number
 done
