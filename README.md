@@ -1,6 +1,6 @@
 # Guessing Game Project
 ---
-make time: Sat Oct 26 15:30:20 PDT 2019
+Make Time: Sat Oct 26 15:34:18 PDT 2019
 
 
-number of lines in guessinggame.sh: 27
+Number of Lines in guessinggame.sh: 27
