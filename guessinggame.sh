@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# File Name: guessinggame.sh
+# File Name: guessinggame
 
 num_of_files=$(ls -l |grep ^- |wc -l)
 
